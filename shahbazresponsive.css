@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 20px;
+    border: 2px solid teal;
+    display: flex;
+}
+.box1{
+    width: 50%;
+}
+.imgdumbell{
+    text-align: center;
+}
+.imgdumbell h1{
+    color:darkblue;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gymimg{
+    text-align: center;
+}
+.touch{
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 7px;
+}
+.touch p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.logo{
+    text-align: left;
+    padding-left: 7px;
+}
+.world{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+i{
+    color: blue;
+}
+.box2{
+    width: 50%;
+    background-color: lightgray;
+}
+.transportimg{
+    text-align: center;
+    color: white;
+}
+form{
+    padding-left: 7px;
+}
+.two-input{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+input,select{
+    border: 1px solid black;
+    width: 45%;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+}
+textarea{
+    width: 98%;
+    height: 200px;
+}
+button{
+    padding: 7px;
+    border-radius: 7px;
+    background-color: lightgray;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: ;
+}
+.icons2{
+    padding:5px;
+    font-size: 30px;
+}
+.icons2 i{
+    color: black;
+    transition: all 0.3s ease;
+}
+.icons2 i:hover{
+    background-color: white;
+}
+.thanking{
+    margin-left: 20px;
+}
+.thanking .name{
+    color: crimson;
+}
+.thanking p{
+    margin-top:7px;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:800px) {
+    .box1{
+        width: 100%;
+    }    
+    .box2{
+        width: 100%;
+    }
+    .container{
+        flex-wrap:wrap;
+    }
+}
+@media screen and (max-width:400px) {
+    .two-input{
+        flex-wrap: wrap;
+    }
+    .two-input input{
+        width: 100%;
+    }
+    .select{
+        width: 100%;
+    }
+}
